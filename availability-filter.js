@@ -11,22 +11,38 @@
 (function() {
     'use strict';
     var confirmed = [
+        'cd', //CodeDeploy
+        'cfg', //Config
         'cfo', //CloudFormation
+        'ctr', //CloudTrail
         'cw',  //CloudWatch
+        'ddb', //Dynamo
+        'dms', //Data Migration Service
+        'dp', //Data Pipeline
         'ec2', //ec2
+        'elc', //Elasticache
         'emr', //emr
         'es',  //Elasticsearch Service
         'gl',  //Glacier
         'iam', //iam
+        'ki', //Kinesis
+        'rds', //rds
+        'rs', //Redshift
         's3',  //s3
+        'sns', //sns
+        'sqs', //sqs
+        'swf', //swf
+        'ta', //Trusted Advisor
         'vpc'  //vpc
     ];
 
     var notIncluded = [
         'efs', //EFS
         'gal', //GameLift
+        'imex', //Snowball
         'iot', //Internet of Things
         'lam', //Lambda
+        'sg', //Storage Gateway
         'r53'  //Route 53
     ];
 
